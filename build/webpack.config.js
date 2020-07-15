@@ -75,6 +75,15 @@ module.exports = {
                     'postcss-loader',
                     'less-loader'
                 ]
+            },
+            // 处理图片
+            {
+                test: /\.(png|jpg|gif|jpeg|svg)$/,
+                include: '/',
+                loader: 'url-loader',
+                options: {
+                    limit: 8192
+                }
             }
         ]
     },

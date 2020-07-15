@@ -1,0 +1,8 @@
+@import "./assets/style/common.css";
+.wedding {
+    width: 100%;
+    height: 100%;
+}
+.photo-album {
+    margin: 0 auto;
+}
